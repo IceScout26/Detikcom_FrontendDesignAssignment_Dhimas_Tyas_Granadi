@@ -1,0 +1,98 @@
+.color-theme {
+    background-color: #007CBD;
+}
+
+.text-color-theme {
+    color: #007CBD !important;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.text-theme{
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.backgroundhero {
+    background-image: url('icon/Background Hero Section.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundmekanisme {
+    background-image: url('icon/Background Mekanisme Section.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dual-background {
+    background-image: url('icon/Background Header Title.png'), none;
+    background-color: #f4fbff;
+    background-repeat: no-repeat;
+    background-size: 100% 45%, 100% 55%;
+    background-position: top, bottom;
+    width: 100%;
+    height: 1100px; /* Atur tinggi div sesuai kebutuhan Anda */
+}
+
+/* Styling for the content inside the div */
+.dual-background .content {
+    padding: 175px;
+}
+
+.padhero {
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
+
+.padmekanisme {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.padregis{
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.custom-jumbotron {
+    border-radius: 15px;
+    /* Tepi rounded */
+    padding: 20px;
+    /* Padding */
+    position: relative;
+    /* Penentu posisi relatif untuk ikon */
+}
+
+/* Gaya khusus untuk ikon */
+.custom-icon {
+    position: absolute;
+    /* Penentu posisi absolut */
+    top: 0;
+    /* Menempatkan ikon di bagian atas jumbotron */
+    left: 0;
+    /* Menempatkan ikon di sisi kiri jumbotron */
+    margin-top: 5px;
+    /* Sedikit margin atas dari ikon */
+    margin-left: 5px;
+    /* Sedikit margin kiri dari ikon */
+}
+
+.p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.active {
+    display: block;
+}
