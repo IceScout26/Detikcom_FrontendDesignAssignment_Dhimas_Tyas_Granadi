@@ -1,0 +1,2 @@
+# Detikcom_FrontendDesignAssignment_Dhimas_Tyas_Granadi
+Tugas web front end designer
